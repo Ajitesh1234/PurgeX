@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSelectFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/select_file_to_shred" />
+
+    <Button
+        android:id="@+id/btnSelectFolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/select_folder_to_shred" />
+
+    <Button
+        android:id="@+id/btnWipeStorageArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/select_storage_to_wipe"
+        android:textColor="@android:color/white" 
+        android:backgroundTint="@android:color/holo_red_dark" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:max="100"
+        android:progressBackgroundTint="@color/progressbar_background_dark"
+        android:progressTint="@color/white"
+        android:secondaryProgressTint="@color/text_secondary_light"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/status_idle"
+        android:textColor="@android:color/white" 
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvCertificate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" 
+        android:fontFamily="sans-serif" 
+        android:padding="8dp"
+        android:text="@string/certificate_placeholder"
+        android:textColor="@android:color/black" 
+        android:textIsSelectable="true" />
+
+</LinearLayout>

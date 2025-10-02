@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PurgeX</string> <!-- Changed from SecureShredder -->
+    <string name="select_file_to_shred">Select File to Shred</string>
+    <string name="select_folder_to_shred">Select Folder to Shred</string>
+    <string name="select_storage_to_wipe">Wipe Selected Storage Area</string>
+    <string name="status_idle">Status: Idle</string>
+    <string name="certificate_placeholder">Certificate will appear here.</string>
+    <string name="shredding_progress">Shredding... %d%%</string>
+    <string name="app_logo_description">App Logo</string>
+
+    <!-- <string name="certificate_placeholder">Certificate will appear here</string> -->
+
+    <!-- <string name="shredding_progress">Shredding progress: %1$d%%</string> -->
+
+    <!-- <string name="certificate_placeholder">Certificate will appear here</string> -->
+
+    <!-- <string name="shredding_progress">Shredding progress: %1$d%%</string> -->
+</resources>

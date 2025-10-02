@@ -1,0 +1,23 @@
+# Created by Studio
+# User-specific files
+*.DS_Store
+.idea/
+.gradle/
+local.properties
+captures/
+.externalNativeBuild/
+
+# Build results
+build/
+app/build/
+
+# Keystore files
+*.jks
+*.keystore
+
+# APK files
+*.apk
+*.aab
+
+# Log files
+*.log

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SecureShredder" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Core colors -->
+        <item name="colorPrimary">@color/purple_500</item> <!-- Changed back to purple -->
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Window and surface backgrounds -->
+        <item name="android:windowBackground">@color/black</item>
+        <!-- For surfaces like cards, dialogs, etc. if needed for more consistency
+        <item name="colorSurface">@color/dark_gray_button</item> 
+        <item name="colorOnSurface">@color/white</item>
+        -->
+
+        <!-- Default text colors -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+
+        <!-- You might also want to set controlActivated (for things like switch thumbs in on state)
+             and colorControlNormal (for things like switch tracks or unchecked checkbox borders)
+             if you find UI elements that don't look right. e.g.:
+        <item name="colorControlActivated">@color/teal_200</item> 
+        <item name="colorControlNormal">@color/text_secondary_light</item>
+        -->
+    </style>
+</resources>
